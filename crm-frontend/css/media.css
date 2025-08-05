@@ -1,0 +1,232 @@
+@media (max-width: 1200px) {
+
+    .main__title {
+        margin-bottom: 13px;
+    }
+
+    .main__content-container {
+        padding: 43px 20px;
+    }
+
+    .thead__th {
+        height: 40px;
+        padding-right: 30px;
+    }
+
+    .thead__th-fio {
+        width: 270px;
+        padding-bottom: 0;
+    }
+
+    .thead__th-start {
+        width: 179px;
+        padding-top: 0;
+    }
+
+    .thead__th-changes {
+        width: 160px;
+        padding-top: 0;
+    }
+
+    .thead__th-contacts {
+        width: 157px;
+    }
+
+    .thead__th-actions {
+        width: 221px;
+    }
+
+    .tbody__fio {
+        padding-right: 10px;
+        text-align: left;
+    }
+
+    .tbody__start-time,
+    .tbody__changes-time {
+        padding-left: 12px;
+    }
+
+    .main__table-overlay {
+        top: 43px;
+        min-height: 300px;
+    }
+
+}
+
+@media (max-width: 970px) {
+    .main__title {
+        margin-bottom: 11px;
+    }
+
+    .thead__th-actions {
+        width: 112px;
+    }
+
+    .thead__th-contacts {
+        width: 93px;
+    }
+
+    .thead__th-changes {
+        width: 97px;
+    }
+
+    .thead__th-start {
+        width: 99px;
+    }
+
+    .thead__th-fio {
+        width: 220px;
+    }
+
+    .thead__th-id {
+        width: 74px;
+    }
+
+    .thead__th {
+        height: 40px;
+        padding-right: 0px;
+    }
+
+    .tbody__actions {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .tbody__td {
+        padding: 7px;
+    }
+
+    .tbody__id {
+        padding-left: 20px;
+    }
+
+    .tbody__start-date,
+    .tbody__changes-date {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    .tbody__start-time,
+    .tbody__changes-time {
+        padding-left: 0;
+    }
+
+    .modal__client-delete {
+        padding: 24px 80px 20px;
+    }
+
+    .modal__delete-title {
+        margin-bottom: 16px;
+        padding-right: 20px;
+    }
+
+    .modal__delete-message {
+        margin-bottom: 30px;
+    }
+
+    .modal__btn-delete {
+        width: 129px;
+    }
+
+}
+
+@media (max-width: 690px) {
+    .main__content-container {
+        padding: 43px 10px;
+    }
+
+    .main__table-wrap {
+        overflow-x: auto;
+        /* min-width: 728px; */
+    }
+
+    .main__table-wrap::-webkit-scrollbar {
+        width: 0;
+    }
+
+}
+
+@media (max-width: 420px) {
+    .main__container {
+        min-height: 100vh;
+    }
+
+    .header {
+        height: 40px;
+    }
+
+    .header__container {
+        min-height: 40px;
+        justify-content: center;
+    }
+
+    .header__form {
+        display: none;
+    }
+
+    .header__logo {
+        width: 24px;
+        height: 24px;
+        margin: 0;
+    }
+
+    .header__logo svg {
+        width: 24px;
+        height: 24px;
+        /* margin: 0; */
+    }
+
+    .main__title {
+        font-weight: 700;
+        font-size: 18px;
+    }
+
+    .main__content-container {
+        padding: 32px 10px;
+    }
+
+    .main__table {
+        margin-bottom: 15px;
+    }
+
+    .modal__client-form {
+        width: 300px;
+    }
+
+    .modal__client-form {
+        padding: 27px 15px 20px;
+    }
+
+    .modal__cross-btn {
+        top: 10px;
+        right: 9px;
+    }
+
+    .modal__new-surname-plch,
+    .modal__new-name-plch,
+    .modal__new-lastname-plch {
+        left: 15px;
+    }
+
+    .modal__client-delete {
+        width: 300px;
+    }
+
+    .modal__client-delete {
+        padding: 25px 25px 20px;
+    }
+
+    .modal__delete-title {
+        margin-bottom: 15px;
+        padding-right: 18px;
+    }
+
+    .modal__delete-message {
+        margin-bottom: 29px;
+    }
+
+    .modal__btn-delete {
+        width: 130px;
+    }
+}
