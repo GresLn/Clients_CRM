@@ -11,3 +11,4 @@
 * Загрузите приложение с помощью команды `git clone`
 * запустите сервер, выполнив команду `node index` в папке crm-backend
 * oткройте файл index.html в папке crm-frontend
+![CRM](https://github.com/GresLn/Clients_CRM/blob/main/crm-frontend/img/Clients_CRM_img.jpg)
